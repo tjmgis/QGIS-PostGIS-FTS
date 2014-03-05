@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project MyGazetterSearchPlugin -->
+<!-- Saved: 2013-09-27, 16:02:31 -->
+<!-- Copyright (C) 2013 Tim Martin, tim.martin@ordnancesurvey.co.uk -->
+<Project version="4.6">
+  <Language>en</Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description>A search plugin that queries a local SQLite database and then zooms to that location</Description>
+  <Version>0.1</Version>
+  <Author>Tim Martin</Author>
+  <Email>tim.martin@ordnancesurvey.co.uk</Email>
+  <Sources>
+    <Source>mygazetteersearchplugin.py</Source>
+    <Source>help/source/conf.py</Source>
+    <Source>plugin_upload.py</Source>
+    <Source>__init__.py</Source>
+    <Source>Ui_ui_mygazetteersearchplugin.py</Source>
+    <Source>resources_rc.py</Source>
+    <Source>ui_mygazetteersearchplugin_old.py</Source>
+    <Source>ui_mygazetteersearchplugin.py</Source>
+  </Sources>
+  <Forms>
+    <Form>ui_mygazetteersearchplugin.ui</Form>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+    <Resource>resources.qrc</Resource>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <MainScript>mygazetteersearchplugin.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.ui" type="FORMS" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS" />
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES" />
+  </FiletypeAssociations>
+</Project>
